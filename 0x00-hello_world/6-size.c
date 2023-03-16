@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * main - Entry function
+ * Description - 'This is the main entry point of the 6-size.c file'
+ * @parameter - void
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+{
+	printf("Size of a char: %2d byte(s)\n", sizeof(char));
+	printf("Size of a int: %2d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %2d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %2d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %2d byte(s)\n", sizeof(float));
+	return (0);
+}
