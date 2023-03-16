@@ -1,0 +1,15 @@
+#!/bin/bash
+
+BASH_PATH="/bin/bash"
+
+if [ "$#" = "0" ]; then
+	echo "Require at least one filename."
+	exit 1
+fi
+
+for argument in "$@"; do
+	echo -e "\nCreating bash script..."
+	echo "#!$BASH_PATH" >> "$argument"
+	chmod u+x "$argument"
+	vim "$argument"
+done
