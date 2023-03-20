@@ -2,8 +2,8 @@
 
 /**
  * main - Entry function
- * Description - this is the main entry point of this program
- * Returns - always 0 success
+ * Description - This is the main entry point of this program
+ * Return - Always 0 success
  */
 
 int main(void)
