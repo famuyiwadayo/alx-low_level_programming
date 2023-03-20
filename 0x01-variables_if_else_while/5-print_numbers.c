@@ -3,7 +3,7 @@
 /**
  * main - Entry function
  * Description - This is the main entry point of this program
- * Return - Always 0 success
+ * Return: Always 0 success
  */
 
 int main(void)
