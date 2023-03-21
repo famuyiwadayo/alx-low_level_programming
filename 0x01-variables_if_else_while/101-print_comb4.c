@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (k = 0; k < MAX; k++)
 			{
-				if (i != j && i < j && j != k & j < k)
+				if ((i != j) && (i < j) && (j != k) & (j < k))
 				{
 					putchar(i + '0');
 					putchar(j + '0');
